@@ -24,7 +24,7 @@
 
 .panels_c48ade {
     position: relative !important;
-    grid-column: infoPanel;
+    grid-row: infoPanel;
     left: 0 !important;
     bottom: 0 !important;
     width: 100% !important;
