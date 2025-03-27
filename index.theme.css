@@ -1,0 +1,47 @@
+/**
+* @name DiscordTweak
+* @author rice-cracker-dev
+* @description Some small tweaks to fix the new UI
+* @version 0.0.1
+*/
+
+.base_c48ade {
+    grid-template-rows: 
+        [top] var(--custom-app-top-bar-height)
+        [titleBarEnd] min-content
+        [noticeEnd] 1fr
+        [infoPanel] auto
+        [end] !important;
+}
+
+.panels_c48ade {
+    position: relative !important;
+    grid-column: infoPanel;
+    grid-row: end;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+}
+
+.page_c48ade {
+    grid-column: end !important;
+    grid-row: noticeEnd / end !important;
+}
+
+.channelTextArea_f75fb0 {
+    margin: 8px 0;
+}
+
+.wrapper_ef3116 {
+    grid-row: noticeEnd / end !important;
+    margin: 0 !important;
+}
+
+.container__2637a {
+    padding: 0 !important;
+}
+
+.scrollerBase__99f8c {
+    margin: 0 !important
+}
