@@ -7,17 +7,24 @@
 
 .base_c48ade {
     grid-template-rows: 
-        [top] var(--custom-app-top-bar-height)
         [titleBarEnd] min-content
         [noticeEnd] 1fr
         [infoPanel] auto
         [end] !important;
+
+    grid-template-areas:
+        "guildsList notice notice"
+        "guildsList channelsList page"
+        "guildsList channelsList page" !important;
+}
+
+.bar_c38106 {
+    display: none;
 }
 
 .panels_c48ade {
     position: relative !important;
     grid-column: infoPanel;
-    grid-row: end;
     left: 0 !important;
     bottom: 0 !important;
     width: 100% !important;
@@ -36,6 +43,7 @@
 .wrapper_ef3116 {
     grid-row: noticeEnd / end !important;
     margin: 0 !important;
+    padding: 8px 0;
 }
 
 .container__2637a {
