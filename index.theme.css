@@ -33,7 +33,7 @@
 
 .page_c48ade {
     grid-column: end !important;
-    grid-row: noticeEnd / end !important;
+    grid-row: titleBarEnd / end !important;
 }
 
 .channelTextArea_f75fb0 {
@@ -41,7 +41,7 @@
 }
 
 .wrapper_ef3116 {
-    grid-row: noticeEnd / end !important;
+    grid-row: titleBarEnd / end !important;
     margin: 0 !important;
     padding: 8px 0;
 }
