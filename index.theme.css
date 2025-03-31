@@ -2,7 +2,7 @@
 * @name DiscordTweak
 * @author rice-cracker-dev
 * @description Some small tweaks to fix the new UI
-* @version 0.0.2
+* @version 0.0.3
 */
 
 .base_c48ade {
@@ -48,6 +48,10 @@
 
 .container__2637a {
     padding: 0 !important;
+}
+
+.sidebarList_c48ade {
+  grid-row: noticeEnd !important;
 }
 
 .scrollerBase__99f8c {
